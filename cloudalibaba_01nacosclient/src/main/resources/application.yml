@@ -1,0 +1,11 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: NACOSCLIENT
+
+  # nacos server
+  cloud:
+    nacos:
+      server-addr: 47.99.112.1:8848
+
